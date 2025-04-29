@@ -1,7 +1,9 @@
 # RNN_Stock_Price_Prediction_
 
 Stock-Market-Analysis-And-Forecasting-Using-Deep-Learning
-UI
+
+![image](https://github.com/user-attachments/assets/034236a6-124b-4c57-8288-72b14121ca0c)
+
 
 This a project of Stock Market Analysis And Forecasting Using Deep Learning(pytorch,gru).
 
@@ -15,15 +17,19 @@ DATASET
 Google | Microsoft | IBM | Amazon
 
 Analysis
-UI
+
+![image](https://github.com/user-attachments/assets/9ec70083-fe8f-42b1-9a28-ab476841f0b7)
+
 
 As we can see here Microsoft's "High" value is very slowly increasing straight line. IBM's "High" value and Amazon's "High" value started from the approx same stage, even Amazon's "High" value was a bit lower but after 2012 Amazon's "High" value started to exponentially increase and slight drop for IBM's "High" value. Since 2016 there is a high fight going between Google's "High" value and Amazon's "High" value at 2018 Amazon's "High" value also beat Google's "High" value.
 
-UI
+
+![image](https://github.com/user-attachments/assets/5fd413c0-fb8e-48e0-9904-87550cd4e207)
 
 In Microsoft data, we can see in 2009 "High" value was under mean for a long time, so we can say there was some loss.
 
-UI
+
+![image](https://github.com/user-attachments/assets/888d7a50-7507-44cc-a33c-351d0889f281)
 
 In Google data,there is a very slow increasing trend until 2012, but after 2012 there was an exponential high trend. And very high seasonality.
 
@@ -35,11 +41,13 @@ GRU Model:
 Gated recurrent unit is essentially a simplified LSTM. It has the exact same role in the network. The main difference is in the number of gates and weights — GRU is somewhat simpler. It has 2 gates. Since it does not have an output gate, there is no control over the memory content. The update gate controls the information flow from the previous activation, and the addition of new information as well, while the reset gate is inserted into the candidate activation.
 
 
-
 Results
-UI
 
-UI
+![image](https://github.com/user-attachments/assets/e7c8d5b5-2cf9-4f05-bd48-0b3e23417f94)
+
+
+![image](https://github.com/user-attachments/assets/d5366c9b-0fca-4315-a13d-be380ed7f9d7)
+
 
 Submissions File : [https://github.com/Navya-D19/RNN_Stock_Price_Prediction_.git](https://github.com/Navya-D19/RNN_Stock_Price_Prediction_/blob/main/Stock_Price_Prediction_Navya.zip)
 
